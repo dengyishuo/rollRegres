@@ -9,7 +9,6 @@ void dtrsm_(
     const int *lda, double *b, const int *ldb) {
 
   F77_CALL(dtrsm)(
-      side, uplo, transa, diag, m, n, alpha, a, lda, b, ldb
-      , );
+      side, uplo, transa, diag, m, n, alpha, a, lda, b, ldb);
 }
 }
